@@ -1,0 +1,16 @@
+.img-responsive{
+    width: 70%;
+    border-radius: 100px;
+}
+
+#test{
+    width: 10%;
+    flex-wrap: nowrap;
+    background-color: #fff;
+}
+.bg-danger{
+    background: grey!important;
+    border-width: 100px;
+    color:azure;
+    border-radius: 40px;   
+}

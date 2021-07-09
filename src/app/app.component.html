@@ -1,0 +1,13 @@
+<h1>antogoniste my hero academia </h1>
+<div class="container">
+    <div class="row classe">
+        <!--La classe bg-info ajoute un fond bleu à l'élément-->
+        <div [ngClass]="{'col':true,'bg-danger':hero.superVilain===true ,'bg-success':hero.superVilain===false}" id="test" *ngFor="let hero of listHero">
+             {{hero.pseudo}}
+            
+            <img class="img-responsive" src="assets/img/dhabi.jpg">
+
+            </div>
+
+    </div>
+</div>
